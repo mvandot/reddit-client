@@ -1,0 +1,35 @@
+.posts{
+    text-align: left;
+    width: 66%;
+}
+
+.post{
+    display: flex;
+    background-color:white;
+    margin: 0 5% 5% 0;
+    padding: 5%;
+}
+
+.postBody{
+    width: 100%;
+}
+
+.postBody img{
+    width: 100%;
+    height: auto;
+}
+
+.postBody a {
+    color: black;
+    text-decoration: none;
+}
+
+.postBody a:hover{
+    color: orangered;
+}
+
+@media only screen and (max-width: 800px) {
+    .posts{
+        width: 100%;
+    }
+}

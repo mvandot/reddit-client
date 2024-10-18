@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #f3f3f3;
 }
 
 .App-logo {
@@ -36,4 +37,10 @@
   100% {
     transform: translateY(0px);
   }
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+  padding: 3%;
 }
