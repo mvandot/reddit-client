@@ -9,6 +9,6 @@
 
 @media only screen and (min-width: 801px) {
     .subSelector{
-        /* display: none; */
+        display: none;
     }
 }
