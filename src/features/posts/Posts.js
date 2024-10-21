@@ -10,8 +10,6 @@ import { useSelector, useDispatch } from 'react-redux';
 import {changeActivePostId} from './individualPost/individualPostSlice';
 import {SubredditsDropdown} from '../subredditsDropdown/SubredditsDropdown';
 
-
-
 export const Posts = () => {
     const activeSearchInput = useSelector(state => state.search);
     const posts = useSelector(state => state.posts);
@@ -19,7 +17,7 @@ export const Posts = () => {
     const dispatch = useDispatch();
 
     const filteredPosts = posts.filter(post => post.title.toLowerCase().includes(activeSearchInput.toLowerCase()));     //select only posts that include the search bar value
-
+    
     return (
         <section className={styles.posts}>
              <SubredditsDropdown />
