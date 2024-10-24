@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/mvandot/reddit-client-mvandot/static/css/main.069a434c.css",
+    "main.js": "/mvandot/reddit-client-mvandot/static/js/main.6d2ebe41.js",
+    "static/js/453.6404898e.chunk.js": "/mvandot/reddit-client-mvandot/static/js/453.6404898e.chunk.js",
+    "static/media/redditLogo.png": "/mvandot/reddit-client-mvandot/static/media/redditLogo.ecb217a7705844e2f8b2.png",
+    "static/media/logo.svg": "/mvandot/reddit-client-mvandot/static/media/logo.b2e5a01e505f739f1484b881277d5186.svg",
+    "index.html": "/mvandot/reddit-client-mvandot/index.html",
+    "main.069a434c.css.map": "/mvandot/reddit-client-mvandot/static/css/main.069a434c.css.map",
+    "main.6d2ebe41.js.map": "/mvandot/reddit-client-mvandot/static/js/main.6d2ebe41.js.map",
+    "453.6404898e.chunk.js.map": "/mvandot/reddit-client-mvandot/static/js/453.6404898e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.069a434c.css",
+    "static/js/main.6d2ebe41.js"
+  ]
+}
