@@ -27,7 +27,7 @@ function App() {
   useEffect(() => {getSubredditPosts(activeSub)
     .then(response => {
       dispatch(changePosts(response));
-    })}, [dispatch]);
+    })}, [activeSub]);
 
 
   return (
