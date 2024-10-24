@@ -2,13 +2,12 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import redditLogo from './redditLogo.png';
 import './App.css';
 
@@ -28,7 +27,7 @@ function App() {
   useEffect(() => {getSubredditPosts(activeSub)
     .then(response => {
       dispatch(changePosts(response));
-    })}, [activeSub]);
+    })}, [dispatch]);
 
 
   return (

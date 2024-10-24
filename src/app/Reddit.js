@@ -1,6 +1,3 @@
-import React from 'react';
-
-
 export const API_ROOT = 'https://www.reddit.com';
 
 export const getSubredditPosts = async (subreddit) => {

@@ -31,7 +31,7 @@ export const Posts = () => {
                             <h2>{post.title}</h2>
                             <p>{post.selftext.substring(0, 600) + (post.selftext.length > 600 ? " [...]" : "")}</p>
                             {post.selftext.length > 600 ? <p className={styles.readMore}>read more...</p> : null}
-                            <img src={post.url} onError={(e) => e.target.style.display = "none"} />
+                            <img src={post.url} onError={(e) => e.target.style.display = "none"} alt={""} />
                         </Link>
                         <PostFooter postId={post.id}
                             postAuthor={post.author}

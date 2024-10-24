@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './IndividualPost.module.css';
 
-import { useSelector, useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 
 import { PostFooter } from '../postFooter/PostFooter';
@@ -28,7 +28,7 @@ export const IndividualPost = () => {
                     <div className={styles.postBody}>
                         <h2>{post.title}</h2>
                         <p>{post.selftext}</p>
-                        <img src={post.url} onError={(e) => e.target.style.display = "none"} />
+                        <img src={post.url} onError={(e) => e.target.style.display = "none"} alt={""} />
 
                         <PostFooter 
                             postId={post.id}
